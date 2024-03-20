@@ -28,9 +28,10 @@ footer {
   width: 100%;
 }
 
-
 .banner {
-  position: relative;
+  background-image: url("https://cdn.pixabay.com/photo/2016/01/19/19/26/amsterdam-1150319_1280.jpg");
+  background-size: cover;
+  background-position: center;
   color: white;
   text-align: center;
   height: 93vh;
@@ -40,18 +41,14 @@ footer {
   margin-top: 50px;
 }
 
-.banner video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.transparent-btn {
+  background-color: transparent !important;
+  border: 2px solid white;
+  color: white;
 }
 
 .banner .container {
-  position: relative;
-  z-index: 1;
+  width: 100%;
 }
 
 .lingkaran {
